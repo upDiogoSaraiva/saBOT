@@ -56,6 +56,13 @@ bot.on('message', function (user, userID, channelID, message, evt) {
 					to:channelID,
 					message : 'https://i.imgur.com/BPZVDKN.jpg'
 				});
+				break
+			case 'approved':
+                bot.sendMessage({
+                    to: channelID,
+                    message: 'https://i.imgur.com/Nqgn3eB.png'
+                });
+				break
 				
             break;
             // Just add any case commands if you want to..
