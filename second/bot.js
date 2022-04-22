@@ -100,6 +100,11 @@ client.on("message", async message => {
         message.channel.send(m);
     }
 
+    if (command === "siga flex?") {
+        const m = "epa com o lendia não";
+        message.channel.send(m);
+    }
+
 
     /* if(command === "ban") {
 
